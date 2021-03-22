@@ -7,7 +7,7 @@ def home():
 
 @app.route('/test') # 代表我們要處理的網站路徑
 def test():
-    return 'This is Test 2'
+    return 'This is Test 3'
 
 if __name__=='__main__': # 如果以主程式執行
     app.run() # 立刻啟動伺服器
